@@ -13,6 +13,14 @@ header {
 #main-menu-container {
     width: 100%;
     background-color: #3d3d3d;
+    z-index: 1001;
+}
+
+#main-menu-container.sticky {
+    position: sticky; /*this*/
+    top: 0; /*this*/
+    z-index: 1001;
+    background-color: #ccc;
 }
 
 .container {
