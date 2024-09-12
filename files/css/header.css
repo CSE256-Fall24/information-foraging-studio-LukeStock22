@@ -17,10 +17,10 @@ header {
 }
 
 #main-menu-container.sticky {
-    position: sticky; /*this*/
-    top: 0; /*this*/
+    position: fixed; /*this*/
+    top: 40px; /*this*/
     z-index: 1001;
-    background-color: #ccc;
+    /*background-color: #ccc;*/
 }
 
 .container {
