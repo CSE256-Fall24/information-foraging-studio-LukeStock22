@@ -17,7 +17,7 @@ header {
 }
 
 #main-menu-container.sticky {
-    position: fixed; /*this*/
+    position: fixed; /*this*/ /*sticky was not functioning, fixed works very well*/
     top: 40px; /*this*/
     z-index: 1001;
     /*background-color: #ccc;*/
